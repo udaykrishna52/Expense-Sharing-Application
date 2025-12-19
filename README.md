@@ -71,13 +71,13 @@ The project includes a MySQL schema file for future database integration:
 
 **Connection Details**:
 - Username: `root`
-- Password: `Udaykrishna@123`
+- Password: `*******`
 - Database: `splitwise_db`
 
 To set up the database:
 
 ```bash
-mysql -u root -pUdaykrishna@123 < database/schema.sql
+mysql -u root -p******** < database/schema.sql
 ```
 
 ## Usage Example
