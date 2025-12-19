@@ -70,15 +70,15 @@ The project includes a MySQL schema file for future database integration:
 **Database Name**: `splitwise_db`
 
 **Connection Details**:
-- Username: `root`
-- Password: `*******`
 - Database: `splitwise_db`
 
 To set up the database:
 
 ```bash
-mysql -u root -p******** < database/schema.sql
+mysql -u <username> -p < database/schema.sql
 ```
+
+Replace `<username>` with your MySQL username. You will be prompted for your password.
 
 ## Usage Example
 
